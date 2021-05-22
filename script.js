@@ -1,3 +1,17 @@
+function checkinput()
+{
+    var principal = document.getElementById("principal").value;
+    if(principal==""){
+        alert("Please enter a valid amount.");
+        principal.focus();
+        return false;
+    }
+    if(principal<=0){
+        alert("Please enter a valid amount.");
+        principal.focus();
+        return false;
+    }
+}
 function updateRate()
 {
     var rateval = document.getElementById("rate").value;
