@@ -13,9 +13,9 @@ function checkinput()
     var amount = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
     if(principal=="" || principal<=0){
-        alert("Please enter a valid amount.");
-        document.getElementById("principal").innerText=reset;
         document.getElementById("result").innerHTML="";
+        alert("Please enter a valid amount.");
+        document.getElementById("principal").value=null;
         document.getElementById("principal").focus();
         return false;
     }else{ 
