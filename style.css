@@ -7,6 +7,12 @@ h1{color:grey;font-family:verdana}
     padding:20px; 
     border-radius:25px;
 }
+.compdiv{
+    background-color:white; 
+    color:black; 
+    width:350px;
+    padding:80px;
+}
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
